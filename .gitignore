@@ -8,18 +8,12 @@ build/
 dist/
 *.egg-info/
 
-# Virtual environments
-.env
-.venv
-venv/
-ENV/
-
 # VS Code
 .vscode/
 
 # OS files
-Thumbs.db
 .DS_Store
+Thumbs.db
 
-# Results / reports
+# Results and local report
 results/
