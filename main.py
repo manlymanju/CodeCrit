@@ -4,11 +4,11 @@ from feedback_generator import generate_feedback
 import os
 
 def main():
-    print("🧠 CodeCrit — Intelligent Python Code Reviewer 🧠")
+    print("!!!!! CodeCrit — An Intelligent Python Code Reviewer !!!!!")
     file_path = input("Enter path of Python file to analyze: ").strip()
 
     if not os.path.exists(file_path):
-        print("❌ File not found. Please check the path and try again.")
+        print("XXXXX File not found. Please check the path and try again.....")
         return
 
     print("\nAnalyzing your code... please wait.\n")
