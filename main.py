@@ -23,7 +23,7 @@ def main():
     with open(report_path, "w", encoding="utf-8") as f:
         f.write(feedback)
 
-    print(f"✅ Report saved to: {report_path}")
+    print(f"***** Report saved to: {report_path} *****")
 
 if __name__ == "__main__":
     main()
